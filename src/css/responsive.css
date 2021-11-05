@@ -1,0 +1,56 @@
+@media (max-width: 992px){
+
+    .secao-texto{
+        padding: 153px 30px;
+    }
+    .secao-texto p,
+    .secao-texto.onde-estamos p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 720px){
+    .ladrilhos .img-1,
+    .ladrilhos .img-4{ 
+        width: 100%;
+    }
+    .ladrilhos .img-2,
+    .ladrilhos .img-3{ 
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 425px){
+    .cabecalho .logo{
+        display: block;
+        margin: 0 auto;
+    }
+    .cabecalho nav{
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+    .cabecalho nav ul li{
+        display: block;
+    }
+    .cabecalho nav ul li a{
+        width: 100%;
+        display: block;
+    }
+    .painel h2{
+        font-size: 25px;
+    }
+    .secao-texto h2{
+        font-size: 30px;
+    }
+    .secao-texto.onde-estamos p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 375px){
+    .ladrilhos .img-2,
+    .ladrilhos .img-3{ 
+        width: 100%;
+    }
+}

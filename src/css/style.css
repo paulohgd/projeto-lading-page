@@ -1,6 +1,7 @@
 body{
     max-width: 1440px;
     margin: 0 auto;
+    font-size: 16px;
 
 }
 .cabecalho{
@@ -91,6 +92,7 @@ body{
 .ladrilhos div{
     float: left;
 }
+
 .contato{
     background:url(/src/images/fundo-contato.jpg) center center no-repeat;
     height: 600px;
