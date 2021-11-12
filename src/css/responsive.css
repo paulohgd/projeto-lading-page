@@ -9,6 +9,23 @@
     }
 }
 
+@media (max-width: 768px){
+    .contato{
+        background-image: none;
+        background-color: #D3AE71;
+    }
+    .contato .texto{
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    .contato h2{
+        margin-bottom: 46px;
+    }
+}
+
 @media (max-width: 720px){
     .ladrilhos .img-1,
     .ladrilhos .img-4{ 
@@ -18,7 +35,31 @@
     .ladrilhos .img-3{ 
         width: 50%;
     }
-
+    .rodape{
+        text-align: center;
+        background-image: none;
+        background-color:black ;
+    }
+    .rodape .logorodape{
+        display: block;
+        margin-bottom: 122px;
+    }
+    .rodape ul{
+        display: block;
+        width: 100%;
+        margin-bottom: 122px;
+    }
+    .rodape ul li {
+        display: block;
+    }
+    .rodape ul li a{
+        font-size: 16px;
+        display: block;
+    }
+    .rodape .redes-socias{
+        float: none;
+        margin-bottom: 28px;
+    }
 }
 
 @media (max-width: 425px){
